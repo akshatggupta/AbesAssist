@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Directory</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(bggg.png);
+      color: #333;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #762B2A;
+      margin-bottom: 30px;
+    }
+
+    /* People Grid */
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .person-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+    .person-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Card Content */
+    .person-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 2px solid #f0f0f0;
+    }
+    .person-card h3 {
+      margin: 15px 0 10px;
+      font-size: 1.2rem;
+      color: #762B2A;
+    }
+    .person-card p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .tech-stack {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 15px;
+    }
+
+    /* Chat Button */
+    .chat-button {
+      display: inline-block;
+      margin: 15px 0 20px;
+      padding: 10px 20px;
+      background: #762B2A;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
+    }
+    .chat-button:hover {
+      background: #1991db;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chat With Mentors</h1>
+    <div class="people-grid">
+      <!-- Person 1 -->
+      <div class="person-card">
+        
+        <h3>Pranav Gupta</h3>
+        <p><strong>Tech Stack:</strong> JavaScript, React, Node.js</p>
+        <p><strong>Year:</strong> 2nd Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+      </div>
+      <!-- Person 2 -->
+      <div class="person-card">
+        
+        <h3>Akshat Gupta</h3>
+        <p><strong>Tech Stack:</strong> Python, Django, PostgreSQL</p>
+        <p><strong>Year:</strong> 2nd Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+      </div>
+      <!-- Person 3 -->
+      <div class="person-card">
+        
+        <h3>Shashwat Singh</h3>
+        <p><strong>Tech Stack:</strong> Java, Spring Boot, MySQL</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+      </div>
+      <!-- Person 4 -->
+      <div class="person-card">
+        
+        <h3>Anuraj Singh</h3>
+        <p><strong>Tech Stack:</strong> C#, ASP.NET, SQL Server</p>
+        <p><strong>Year:</strong> 3rd Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+      </div>
+      <!-- Person 5 -->
+      <div class="person-card">
+        
+        <h3>Anubhav Singh</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      <div class="person-card">
+        
+        <h3>Abhishek Yadav</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      <div class="person-card">
+        
+        <h3>Raj Singh</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      <div class="person-card">
+        
+        <h3>Devansh Gupta</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      <div class="person-card">
+        
+        <h3>Srishti Maurya</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      <div class="person-card">
+        
+        <h3>Digamber varshney</h3>
+        <p><strong>Tech Stack:</strong> Python, Flask, MongoDB</p>
+        <p><strong>Year:</strong> 4th Year</p>
+        <a href="https://twitter.com/" target="_blank" class="chat-button">Chat on Twitter</a>
+        
+      </div>
+      
+      <!-- Add More People Below -->
+      <!-- Repeat the above structure for additional people -->
+    </div>
+  </div>
+</body>
+</html>

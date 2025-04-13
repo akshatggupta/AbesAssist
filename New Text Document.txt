@@ -1,0 +1,19 @@
+Hello Everyone My name is pranav Gupta and today i am here to present our project abes assist in front of you. Allow me introduce you to our team 
+
+shashawat :security par kaam kar raha hai he used technologies of blockchain
+
+Akshat has worked on the database and has build a fast api
+
+Anurag and i Have worked on the frontend part of ABES Assist
+
+
+we have come up with the minds of a developer and designer both
+since due to time crusalty we could design our project more 
+
+our home page itself leaves scope for adding more to datas like testimonials, a creators tribute page and so
+
+
+shashwat has done a really commendable job on providing a secure login and secure chats option 
+
+
+our day to day hustle of finding links has come to an end because of our power shortcut panel feature
